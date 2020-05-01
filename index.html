@@ -20,12 +20,12 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <iframe id="video-1" src="https://www.youtube.com/embed/TsxPEXBnNBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="carousel-item active">
+                <iframe id="video-1" src="https://www.youtube.com/embed/TsxPEXBnNBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item">
+                <iframe src="https://www.youtube.com/embed/XjlZNmjYle8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           <div class="carousel-item">
             <img src="..." class="d-block w-100" alt="...">
           </div>
@@ -47,7 +47,8 @@ $(function() {
     var width = window.innerWidth,
     height = window.innerHeight;
 
-    $('iframe').width()
+    $('iframe').width( width - 50);
+    $('iframe').height( height - 300 );
 
 })
 
