@@ -53,8 +53,15 @@ function resize() {
     var width = window.innerWidth,
     height = window.innerHeight;
 
-    $('iframe').width( width - 50);
-    $('iframe').height( height - 300 );
+    if( window.Touch ) {
+        $('iframe').width( width );
+        $('iframe').height( height - 150 );
+    }
+
+    else {
+        $('iframe').width( 1228 );
+        $('iframe').height( 796 );
+    }
 }
 
 
