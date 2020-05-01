@@ -107,8 +107,8 @@ $(window).on('resize', function() {
 function resize() {
 
     var width = $('.col-sm-10').width(),
-    height = $('.col-sm-10').height();
-
+    height = window.innerHeight
+    
     if( window.Touch ) {
         $('iframe').width( width );
         $('iframe').height( height - 150 );
