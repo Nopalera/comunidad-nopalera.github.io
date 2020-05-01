@@ -20,32 +20,41 @@
         body {
             background-color: #fff;
         }
+        .col-3 {
+            background-color: #222;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
-    <div id="contenedor">
+    <div id="contenedor" class="row">
+        
+        <div class="col-9">
+            <div id="carrusel" class="carousel slide" data-ride="carousel">
 
-        <div id="carrusel" class="carousel slide" data-ride="carousel">
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <iframe id="video-1" src="https://www.youtube.com/embed/TsxPEXBnNBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <iframe id="video-1" src="https://www.youtube.com/embed/TsxPEXBnNBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/XjlZNmjYle8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/HR_wHy6CLWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <iframe src="https://www.youtube.com/embed/XjlZNmjYle8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="carousel-item">
-                    <iframe src="https://www.youtube.com/embed/HR_wHy6CLWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                <a class="carousel-control-prev" href="" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        </div>
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, corrupti alias qui architecto debitis nesciunt ab dolore dolores explicabo magni quaerat, animi fugiat ipsum ex consequuntur maiores illum voluptates perferendis.
         </div>
     </div>
 </body>
