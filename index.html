@@ -29,6 +29,9 @@
             background-color: #222;
             color: #fff;
         }
+        .rounded {
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -38,28 +41,29 @@
     <div id="contenedor" class="row">
         
         <div class="col-10">
-            <div id="carrusel" class="carousel slide" data-ride="carousel">
-
+            <div id="Carousel" class="carousel slide col-lg-8 col-offset-2">
+                <ol class="carousel-indicators">
+                    <li data-target="Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="Carousel" data-slide-to="1"></li>
+                    <li data-target="Carousel" data-slide-to="2"></li>
+                </ol>
+        
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <iframe id="video-1" src="https://www.youtube.com/embed/TsxPEXBnNBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="carousel-item">
-                        <iframe src="https://www.youtube.com/embed/XjlZNmjYle8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="carousel-item">
-                        <iframe src="https://www.youtube.com/embed/HR_wHy6CLWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <div class="item active">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti iure numquam dolore magnam tempora excepturi vel in modi similique animi sunt minima distinctio minus aspernatur quaerat, molestias magni architecto.                    </div>
+                   <div class="item">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat quo recusandae aliquid necessitatibus quaerat pariatur ratione unde. Porro dolores minus id quasi, non nam perspiciatis ab. Laudantium, minus optio!                    </div>
+                   <div class="item">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quam impedit mollitia iste magni earum consequatur similique itaque ducimus fugiat. Tempore recusandae eveniet in iure labore? Aperiam earum velit obcaecati.                    </div>
                 </div>
-                <a class="carousel-control-prev" href="" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+        
+                <a class="left carousel-control" href="#Carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
-                <a class="carousel-control-next" href="" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a class="right carousel-control" href="#Carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-            </div>
+        </div>
         </div>
         <div class="col-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, labore ut placeat totam doloribus velit! Pariatur mollitia expedita illo deleniti soluta alias autem fugit aut impedit accusantium explicabo, voluptatum repudiandae.
