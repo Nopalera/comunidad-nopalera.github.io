@@ -1,0 +1,19 @@
+baseURL = "https://nopalera.github.io/"
+languageCode = "es-mx"
+title = "Comunidad Nopalera"
+theme = "dream"
+googleAnalytics = "UA-165269620-1"
+
+[params]
+
+	backgroundImage = "/img/background.png"
+
+	avatar = "/img/avatar.jpg"
+
+	linkColor = "seagreen"
+
+[markup]
+	defaultMarkdownHandler = "goldmark"
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
