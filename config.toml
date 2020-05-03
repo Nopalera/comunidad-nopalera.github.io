@@ -1,8 +1,9 @@
-baseURL = "https://nopalera.github.io/"
+baseURL = "https://nopalera.github.io"
 languageCode = "es-mx"
 title = "Comunidad Nopalera"
 theme = "dream"
 googleAnalytics = "UA-165269620-1"
+#publishDir = "docs"
 
 [params]
 
