@@ -3,7 +3,7 @@ languageCode = "es-mx"
 title = "Comunidad Nopalera"
 theme = "dream"
 googleAnalytics = "UA-165269620-1"
-#publishDir = "docs"
+publishDir = "docs"
 
 [params]
 
