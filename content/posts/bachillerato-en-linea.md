@@ -1,7 +1,7 @@
 ---
 title: Bachillerato en Linea
-date: 2020-05-02T19:27:21-05:00
-lastmod: 2020-05-02T19:27:21-05:00
+date: 2020-04-08T19:27:21-05:00
+lastmod: 2020-04-08T19:27:21-05:00
 author: Autor
 cover: /img/default2.jpg
 categories: ["educación"]
